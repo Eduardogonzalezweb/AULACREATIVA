@@ -1,0 +1,78 @@
+html, body {
+  top: -400px;
+	width: 90%;
+  height: 90%;
+	background: #eadfb4;
+}
+
+
+
+.gallery-wrap {
+  margin-top: 40px;
+	display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 60vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+}
+.item:hover {
+  flex: 2;
+	
+}
+
+.item-1 {
+  background-image: url("Proyecto1.jpg");
+}
+
+.item-1:hover {
+  background-image: url("Proyecto1-hover.jpg");
+
+}
+
+.item-2 {
+  background-image: url("Proyecto2.jpg");
+}
+
+.item-2:hover {
+  background-image: url("Proyecto2-hover.jpg");
+
+}
+
+
+.item-3 {
+  background-image: url("Proyecto3.jpg");
+}
+
+.item-3:hover {
+  background-image: url("Proyecto3-hover.jpg");
+
+}
+
+
+.item-4 {
+  background-image: url("Proyecto4.jpg");
+}
+
+.item-4:hover {
+  background-image: url("Proyecto4-hover.jpg");
+
+}
+
+.item-5 {
+  background-image: url("Proyecto5.jpg");
+}
+
+.item-5:hover {
+  background-image: url("Proyecto5-hover.jpg");
+
+}
+
+

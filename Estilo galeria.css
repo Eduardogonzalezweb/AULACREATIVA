@@ -1,0 +1,439 @@
+@charset "utf-8";
+
+ html, body {
+    overflow: auto;
+	 height: auto;
+}
+
+.fondo {
+	weight: 4000px;
+	height: 300%;
+	background: #000000;
+	position: relative;
+}
+
+
+.Nosotros {
+	
+		width: 600px;
+	height: 20px;
+	color: #366070;
+	top: 500px;
+	weight: 60px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 40px;
+	text-align: center;
+	margin-left: 345px;
+	margin-top: -460px;
+}
+
+.encabezado {
+	width: 99.97%;
+	height: 17vh;
+	background: #51829b;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 1000;
+	cursor:auto;
+}
+
+.logo {
+	width: 220px;
+	height: 95px;
+	background: url("Logo redimensionado.png");
+	position: relative;
+	top: 8px;
+	left: 113px;
+	cursor: pointer;
+}
+
+.inicio {
+	width: 117px;
+	height: 95px;
+	color: aliceblue;
+	border-style: none;
+	background:none;
+	position: relative;
+	top: -87px;
+	left: 350px;
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 15px;	
+  font-variation-settings:
+    "wdth" 100;
+}
+.inicio:hover{
+	border-radius: 15px;
+width: 117px;
+	height: 95px;
+	color: aliceblue;
+	border-style: #366070;
+	background:#366070;
+	position: relative;
+	top: -85px;
+	left: 350px;
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 15px;	
+  font-variation-settings:
+    "wdth" 100;	
+	
+	
+}
+
+
+.primero {
+	border-radius: 15px;
+	width: 117px;
+	height: 95px;
+	color: aliceblue;
+	border-style: none;
+	background: #f6995c;
+	position: relative;
+	top: -87px;
+	left: 350px;
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 15px;	
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.primero:hover {
+	width: 117px;
+	height: 95px;
+	color: aliceblue;
+	border-style: none;
+	background: url("Primero boton.png");
+	position: relative;
+	top: -87px;
+	left: 350px;
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 15px;	
+  font-variation-settings:
+    "wdth" 100;
+	
+}
+
+
+.segundo {
+	border-radius: 15px;
+	width: 117px;
+	height: 95px;
+	background: #f6da41;
+	color:aliceblue;
+	border-style: none;
+	position: relative;
+	top: -87px;
+	left: 360px;
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 15px;	
+  font-variation-settings:
+    "wdth" 100;
+	
+}
+
+.segundo:hover {
+	width: 117px;
+	height: 95px;
+	color: aliceblue;
+	border-style: none;
+	background: url("Segundo boton.png");
+	position: relative;
+	top: -87px;
+	left: 360px;
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 15px;	
+  font-variation-settings:
+    "wdth" 100;
+	
+}
+
+.tercero {
+	border-radius: 15px;
+	width: 117px;
+	height: 95px;
+	background: #f66f5c;
+	position: relative;
+	top: -87px;
+	left: 370px;
+	color:aliceblue;
+	border-style: none;
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 15px;	
+  font-variation-settings:
+    "wdth" 100;
+	
+}
+
+.tercero:hover {
+	width: 117px;
+	height: 95px;
+	color: aliceblue;
+	border-style: none;
+	background: url("Tercero boton.png");
+	position: relative;
+	top: -87px;
+	left: 370px;
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 15px;	
+  font-variation-settings:
+    "wdth" 100;
+	
+}
+.instagram {
+	
+	width: 50px;
+	height: 50px;
+	background:url("insta.png");
+	position: relative;
+	top: -69px;
+	left: 580px;
+	border-style: none;
+	cursor: pointer;
+	
+}
+
+.foro {
+	border-radius: 15px;
+	width: 117px;
+	height: 95px;
+	background: #39b54a;
+	position: relative;
+	top: -87px;
+	left: 330px;
+	color: aliceblue;
+	border-style: none;
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 15px;	
+  font-variation-settings:
+    "wdth" 100;
+	
+}
+
+.foro:hover {
+	border-radius: 15px;
+	width: 117px;
+	height: 95px;
+	background: url("Foro boton.png");
+	position: relative;
+	top: -87px;
+	left: 330px;
+	color: aliceblue;
+	border-style: none;
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 15px;	
+  font-variation-settings:
+    "wdth" 100;
+	
+}
+
+
+.migajas1 {
+	width: 99.97%;
+	height: 12px;
+	background: #366070;
+	font-family: "Open Sans",serif;
+	font-size: 12px;
+	font-weight: 500;
+	color: aliceblue;
+	padding: 12px;
+	position: fixed;
+	top: 17vh;
+	left: 0px;
+	z-index: 1000;
+	line-height: 12px;
+}
+
+.iniciob {
+	
+	width: auto;
+	height: auto;
+	color: aliceblue;
+	border-style: none;
+	background: none;
+	position: absolute;
+	top: 50%;
+	left:20px;
+	 transform: translateY(-50%);
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+font-size: 13px;	
+  font-variation-settings:
+    "wdth" 100;
+	z-index: 1100;
+	}
+
+.primerob {
+	
+	width: auto;
+	height: auto;
+	color: aliceblue;
+	border-style: none;
+	background: none;
+	position: absolute;
+	top: 114%;
+	left:80px;
+	 transform: translateY(-50%);
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+font-size: 13px;	
+  font-variation-settings:
+    "wdth" 100;
+	z-index: 1100;
+	
+}
+
+
+
+
+
+
+.textito {
+	width: 600px ;
+	height: 30px;
+	background: none;
+	color: #FFFFFF;
+	border: none;
+	text-align: left;
+	position: relative;
+	top: 30px;
+	left: 70px;
+	font-family: "Open Sans", serif;
+	font-weight: 200;
+	font-style: bold;
+	font-size: 12px;
+}
+
+.razon {
+	width: 70px ;
+	height: 50px;
+	background: none;
+	color: #FFFFFF;
+	border: none;
+	text-align: center;
+	position: relative;
+	top: -20px;
+	left: 1000px;
+	font-family: "Open Sans", serif;
+	font-weight: 200;
+	font-style: bold;
+	font-size: 12px;
+}
+
+.razon:hover {
+	width: 70px ;
+	height: 50px;
+	background: #406270;
+	color: #FFFFFF;
+	border: none;
+	text-align: center;
+	position: relative;
+	top: -20px;
+	left: 1000px;
+	font-family: "Open Sans", serif;
+	font-weight: 200;
+	font-style: bold;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.fundador {
+	width: 70px ;
+	height: 40px;
+	background: none;
+	color: #FFFFFF;
+	border: none;
+	text-align: center;
+	position: relative;
+	top: -20px;
+	left: 1010px;
+	font-family: "Open Sans", serif;
+	font-weight: 200;
+	font-style: bold;
+	font-size: 12px;
+}
+
+.fundador:hover {
+	width: 70px ;
+	height: 40px;
+	background: #406270;
+	color: #FFFFFF;
+	border: none;
+	text-align: center;
+	position: relative;
+	top: -20px;
+	left: 1010px;
+	font-family: "Open Sans", serif;
+	font-weight: 200;
+	font-style: bold;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.textocontacto {
+	
+		width: 300px;
+	height: auto;
+	color: aliceblue;
+	border-style: none;
+	background: none;
+	position: absolute;
+	top:400px;;
+	left:80px;
+	 transform: translateY(-50%);
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+font-size: 30px;	
+  font-variation-settings:
+    "wdth" 100;
+	z-index: 1100;
+}

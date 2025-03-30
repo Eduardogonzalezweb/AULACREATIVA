@@ -1,0 +1,162 @@
+.headerA {
+}
+
+.containerA {
+  width: 100%;
+  min-height: 100vh;
+  min-width: 90vh;
+  opacity: 1;
+  font-family: "Open Sans", serif;
+}
+
+.container.introA {
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  opacity: 0.75;
+  background: none;
+}
+
+.container .line {
+  width: 20%;
+  margin: 25px auto 0 auto;
+  height: 1px;
+  background-color: #c3d2e3;
+}
+
+.contentA {
+  padding: 10px;
+  text-align: center;
+  left: 50px;
+}
+
+.contentA .box {
+  max-width: 600px;
+  min-height: 140px;
+  min-width: 595px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #e3e3e3;
+  margin: 0 auto;
+}
+
+.navigation {
+  text-align: left;
+  position: relative;
+  left: 330px;
+  top: 80px;
+	z-index: 1000;
+}
+
+.navigation input {
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation input + label:hover {
+  color: #777;
+}
+
+.navigation .navigationShadow {
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.04);
+  box-sizing: border-box;
+  position: absolute;
+  height: 35px;
+  z-index: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+.details .section {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  position: absolute;
+  padding: 10px 20px;
+}
+
+#panel-1:checked ~ .slider {
+  background: #f6995c;
+  left: 1% !important;
+  top: 12%;
+  width: 120px;
+  z-index: 1000;
+}
+
+#panel-2:checked + label {
+  color: #366070;
+}
+
+#panel-2:checked ~ .slider {
+  background: #39b54a;
+  left: 27% !important;
+  top: 12%;
+  width: 134px;
+  z-index: 1000;
+}
+
+#panel-3:checked + label {
+  color: #525252;
+}
+
+#panel-1:checked ~ .details #details-1,
+#panel-2:checked ~ .details #details-2,
+#panel-3:checked ~ .details #details-3,
+#panel-4:checked ~ .details #details-4 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.navigation input + label {
+  margin: 12px -8px;
+  width: 20%;
+  transition: all 0.3s;
+  text-align: center;
+  border: none;
+  color: #53829b;
+  display: inline;
+  padding: 5pt 10pt;
+  vertical-align: top;
+  font-weight: 600;
+  font-size: 25px;
+  border-radius: 7px 7px 0 0 !important;
+  font-family: "Open Sans", serif;
+  background: #eadfb4;
+  cursor: pointer;
+}
+
+.details {
+  margin: 0px auto;
+  text-align: left;
+  line-height: 20px;
+  height: 200px;
+  border-radius: 5px;
+  display: block;
+  padding: 1.25rem;
+  z-index: 2;
+  background: #366070;
+  position: relative;
+opacity: 1;
+}
+
+.slider {
+  width: 15%;
+  padding: 0px 13px;
+  height: 4.5px;
+  border-radius: 0 0 1px 1px;
+  position: absolute;
+  box-shadow: 0px 0px 8px 0px hsl(262deg 100% 70% / 70%);
+  background: #f6995c;
+  transition: all 0.3s;
+  top: 36px;
+  z-index: 1000;
+}
+
+
+
+
+

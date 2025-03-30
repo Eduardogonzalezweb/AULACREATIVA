@@ -1,0 +1,916 @@
+@charset "utf-8";
+
+body {
+    background-color: #366070; 
+}
+
+
+
+.encabezado {
+	width: 99.97%;
+	height: 17vh;
+	background: #51829b;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 1000;
+	
+}
+
+.logo {
+	width: 220px;
+	height: 95px;
+	background: url("Logo redimensionado.png");
+	position: relative;
+	top: 8px;
+	left: 113px;
+	cursor: pointer;
+}
+
+.inicio {
+	width: 117px;
+	height: 95px;
+	color: aliceblue;
+	border-style: none;
+	background:none;
+	position: relative;
+	top: -87px;
+	left: 350px;
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 15px;	
+  font-variation-settings:
+    "wdth" 100;
+}
+.inicio:hover{
+	border-radius: 15px;
+width: 117px;
+	height: 95px;
+	color: aliceblue;
+	border-style: #366070;
+	background:#366070;
+	position: relative;
+	top: -85px;
+	left: 350px;
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 15px;	
+  font-variation-settings:
+    "wdth" 100;	
+	
+	
+}
+
+
+.primero {
+	border-radius: 15px;
+	width: 117px;
+	height: 95px;
+	color: aliceblue;
+	border-style: none;
+	background: #f6995c;
+	position: relative;
+	top: -87px;
+	left: 350px;
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 15px;	
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.primero:hover {
+	width: 117px;
+	height: 95px;
+	color: aliceblue;
+	border-style: none;
+	background: url("Primero boton.png");
+	position: relative;
+	top: -87px;
+	left: 350px;
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 15px;	
+  font-variation-settings:
+    "wdth" 100;
+	
+}
+
+
+.segundo {
+	border-radius: 15px;
+	width: 117px;
+	height: 95px;
+	background: #f6da41;
+	color:aliceblue;
+	border-style: none;
+	position: relative;
+	top: -87px;
+	left: 360px;
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 15px;	
+  font-variation-settings:
+    "wdth" 100;
+	
+}
+
+.segundo:hover {
+	width: 117px;
+	height: 95px;
+	color: aliceblue;
+	border-style: none;
+	background: url("Segundo boton.png");
+	position: relative;
+	top: -87px;
+	left: 360px;
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 15px;	
+  font-variation-settings:
+    "wdth" 100;
+	
+}
+
+.tercero {
+	border-radius: 15px;
+	width: 117px;
+	height: 95px;
+	background: #f66f5c;
+	position: relative;
+	top: -87px;
+	left: 370px;
+	color:aliceblue;
+	border-style: none;
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 15px;	
+  font-variation-settings:
+    "wdth" 100;
+	
+}
+
+.tercero:hover {
+	width: 117px;
+	height: 95px;
+	color: aliceblue;
+	border-style: none;
+	background: url("Tercero boton.png");
+	position: relative;
+	top: -87px;
+	left: 370px;
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 15px;	
+  font-variation-settings:
+    "wdth" 100;
+	
+}
+.instagram {
+	
+	width: 50px;
+	height: 50px;
+	background:url("insta.png");
+	position: relative;
+	top: -69px;
+	left: 580px;
+	border-style: none;
+	cursor: pointer;
+	
+}
+
+.foro {
+	border-radius: 15px;
+	width: 117px;
+	height: 95px;
+	background: #39b54a;
+	position: relative;
+	top: -87px;
+	left: 330px;
+	color: aliceblue;
+	border-style: none;
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 15px;	
+  font-variation-settings:
+    "wdth" 100;
+	
+}
+
+.foro:hover {
+	border-radius: 15px;
+	width: 117px;
+	height: 95px;
+	background: url("Foro boton.png");
+	position: relative;
+	top: -87px;
+	left: 330px;
+	color: aliceblue;
+	border-style: none;
+	cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 15px;	
+  font-variation-settings:
+    "wdth" 100;
+	
+}
+
+
+.segunda-parte {
+	max-width: 300%;
+	width: 239.5%;
+	height: 695px;
+	background: #366070;
+	position: relative;
+	top: -80px;
+	left: -8px;
+	margin: -10px;
+	padding: -10px;
+}
+
+.pregunta {
+	width: 1000px;
+	height: 57px;
+	color: #eadfb4;
+	text-align: center;
+	background-color: none;
+	position: relative;
+	top: -740px;
+	left: 170px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 20px;	
+  font-variation-settings:
+    "wdth" 100;
+	
+}
+
+.primero-dos {
+	border-radius: 25px;
+	border-style: none;
+	width: 175px;
+	height: 173px;
+	color: aliceblue;
+	text-align: center;
+	background-color: #F6995C;
+	position: relative;
+	top: -720px;
+	left: 210px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 100px;	
+  font-variation-settings:
+    "wdth" 100;
+	cursor: pointer;
+	
+}
+
+.primero-dos:hover {
+	border-radius: 25px;
+	border-style: none;
+	width: 175px;
+	height: 173px;
+	color: aliceblue;
+	text-align: center;
+	background: url("fondograndeprimero.png");
+	background-size: cover;
+	position: relative;
+	top: -720px;
+	left: 210px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 100px;	
+  font-variation-settings:
+    "wdth" 100;
+	cursor: pointer;
+	
+}
+
+.segundo-dos {
+	border-radius: 25px;
+	border-style: none;
+	width: 175px;
+	height: 173px;
+	color: aliceblue;
+	text-align: center;
+	background-color:#F6DA41;
+	position: relative;
+	top: -720px;
+	left: 380px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 100px;	
+  font-variation-settings:
+    "wdth" 100;
+	cursor: pointer;
+}
+
+.segundo-dos:hover {
+	border-radius: 25px;
+	border-style: none;
+	width: 175px;
+	height: 173px;
+	color: aliceblue;
+	text-align: center;
+	background:url("fondograndesegundo.png");
+	background-size:cover; 
+	position: relative;
+	top: -720px;
+	left: 380px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 100px;	
+  font-variation-settings:
+    "wdth" 100;
+	cursor: pointer;
+}
+
+.tercero-dos {
+	border-radius: 25px;
+	border-style: none;
+	width: 175px;
+	height: 173px;
+	color: aliceblue;
+	text-align: center;
+	background-color:#f66f5c;
+	position: relative;
+	top: -720px;
+	left: 580px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 100px;	
+  font-variation-settings:
+    "wdth" 100;
+	cursor: pointer;
+	
+}
+
+.tercero-dos:hover {
+	border-radius: 25px;
+	border-style: none;
+	width: 175px;
+	height: 173px;
+	color: aliceblue;
+	text-align: center;
+	background:url("fondograndetercero.png");
+	background-size: cover; 
+	position: relative;
+	top: -720px;
+	left: 580px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 100px;	
+  font-variation-settings:
+    "wdth" 100;
+	cursor: pointer;
+	
+}
+
+.espanol-uno {
+	border-radius: 20px;
+	border-style: none;
+	width: 175px;
+	height: 60px;
+	color: aliceblue;
+	text-align: center;
+	background-color:#f6995c;
+	position: relative;
+	top: -630px;
+	left: 210px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 20px;	
+  font-variation-settings:
+    "wdth" 100;
+	cursor: pointer;
+	
+	
+}
+
+.espanol-uno:hover {
+	border-radius: 20px;
+	border-style: none;
+	width: 175px;
+	height: 60px;
+	color: aliceblue;
+	text-align: center;
+	background:url("Primero boton.png");
+	background-size: cover; 
+	position: relative;
+	top: -630px;
+	left: 210px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 20px;	
+  font-variation-settings:
+    "wdth" 100;
+	cursor: pointer;
+	
+	
+}
+
+.matematicas-uno {
+	border-radius: 20px;
+	border-style: none;
+	width: 175px;
+	height: 60px;
+	color: aliceblue;
+	text-align: center;
+	background-color:#f6995c;
+	position: relative;
+	top: -480px;
+	left: 30px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 20px;	
+  font-variation-settings:
+    "wdth" 100;
+	cursor: pointer;
+	
+	
+}
+
+.matematicas-uno:hover {
+	border-radius: 20px;
+	border-style: none;
+	width: 175px;
+	height: 60px;
+	color: aliceblue;
+	text-align: center;
+	background:url("Primero boton.png");
+	background-size:cover;
+	position: relative;
+	top: -480px;
+	left: 30px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 20px;	
+  font-variation-settings:
+    "wdth" 100;
+	cursor: pointer;
+	
+	
+}
+
+.espanol-unodos {
+	border-radius: 20px;
+	border-style: none;
+	width: 175px;
+	height: 60px;
+	color: aliceblue;
+	text-align: center;
+	background-color:#f6da41;
+	position: relative;
+	top: -630px;
+	left: 200px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 20px;	
+  font-variation-settings:
+    "wdth" 100;
+	cursor: pointer;
+	
+	
+}
+
+.espanol-unodos:hover {
+	border-radius: 20px;
+	border-style: none;
+	width: 175px;
+	height: 60px;
+	color: aliceblue;
+	text-align: center;
+	background:url("Segundo boton.png");
+	background-size:cover;
+	position: relative;
+	top: -630px;
+	left: 200px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 20px;	
+  font-variation-settings:
+    "wdth" 100;
+	cursor: pointer;
+	
+	
+}
+
+.matematicas-unodos {
+	border-radius: 20px;
+	border-style: none;
+	width: 175px;
+	height: 60px;
+	color: aliceblue;
+	text-align: center;
+	background-color:#f6da41;
+	position: relative;
+	top: -540px;
+	left: 563px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 20px;	
+  font-variation-settings:
+    "wdth" 100;
+	cursor: pointer;
+	
+	
+}
+
+
+.matematicas-unodos:hover {
+	border-radius: 20px;
+	border-style: none;
+	width: 175px;
+	height: 60px;
+	color: aliceblue;
+	text-align: center;
+	background:url("Segundo boton.png");
+	background-size: cover;
+	position: relative;
+	top: -540px;
+	left: 563px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 20px;	
+  font-variation-settings:
+    "wdth" 100;
+	cursor: pointer;
+	
+	
+}
+
+
+.espanol-unotres {
+	border-radius: 20px;
+	border-style: none;
+	width: 175px;
+	height: 60px;
+	color: aliceblue;
+	text-align: center;
+	background-color:#f66f5c;
+	position: relative;
+	top: -690px;
+	left: 765px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 20px;	
+  font-variation-settings:
+    "wdth" 100;
+	cursor: pointer;
+	
+	
+}
+
+
+.espanol-unotres:hover {
+	border-radius: 20px;
+	border-style: none;
+	width: 175px;
+	height: 60px;
+	color: aliceblue;
+	text-align: center;
+	background:url("Tercero boton.png");
+	background-size: cover;
+	position: relative;
+	top: -690px;
+	left: 765px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 20px;	
+  font-variation-settings:
+    "wdth" 100;
+	cursor: pointer;
+	
+	
+}
+
+
+.matematicas-unotres {
+	border-radius: 20px;
+	border-style: none;
+	width: 175px;
+	height: 60px;
+	color: aliceblue;
+	text-align: center;
+	background-color:#f66f5c;
+	position: relative;
+	top: -550px;
+	left: 593px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 20px;	
+  font-variation-settings:
+    "wdth" 100;
+	cursor: pointer;
+	
+	
+}
+
+.matematicas-unotres:hover {
+	border-radius: 20px;
+	border-style: none;
+	width: 175px;
+	height: 60px;
+	color: aliceblue;
+	text-align: center;
+	background:url("Tercero boton.png");
+	background-size:cover;
+	position: relative;
+	top: -550px;
+	left: 593px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 20px;	
+  font-variation-settings:
+    "wdth" 100;
+	cursor: pointer;
+	
+	
+}
+
+.tercera-parte {
+	width: 239%;
+	height: 550px;
+	background: #eadfb4;
+	position: relative;
+	top: -450px;
+	left: -8px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.pregunta2 {
+	width: 500px;
+	height: 57px;
+	color: #366070;
+	text-align: left;
+	background-color: none;
+	position: relative;
+	top: 70px;
+	left: 210px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 20px;	
+  font-variation-settings:
+    "wdth" 100;
+	
+}
+
+.estamoscomprometidos {
+width: 353px ;
+height: 401px;
+background: url("comprometidos.jpg");
+background-size: cover;
+position: relative;
+top: 0px;
+left: 800px;
+	
+
+	
+}
+
+
+.botongrandeforo {
+	border-radius: 20px;
+	border-style: none;
+	width: 300px;
+	height: 150px;
+	color: aliceblue;
+	text-align: center;
+	background-color: #39B54A;
+	background-size:cover;
+	position: relative;
+	top: -270px;
+	left: 200px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 50px;	
+  font-variation-settings:
+    "wdth" 100;
+	cursor: pointer;
+	
+}
+
+
+.botongrandeforo:hover {
+	border-radius: 20px;
+	border-style: none;
+	width: 300px;
+	height: 150px;
+	color: aliceblue;
+	text-align: center;
+	background: url("Foro boton.png");
+	background-size:cover;
+	position: relative;
+	top: -270px;
+	left: 200px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 50px;	
+  font-variation-settings:
+    "wdth" 100;
+	cursor: pointer;
+	
+}
+
+
+.textosiguiente {
+	width: 500px;
+	height: 57px;
+	color: #366070;
+	text-align: left;
+	background-color: none;
+	position: relative;
+	top: -215px;
+	left: 210px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+font-size: 20px;	
+  font-variation-settings:
+    "wdth" 100;
+	
+}
+
+
+.cuarta-parte{
+	
+	width: 100.65%wh;
+	height: 70px;
+	background: #51829B;
+	position: relative;
+	top: 40px;
+	left: -8px;
+	margin: -20px;
+	padding: -20px;
+	
+}
+
+
+.textito {
+	width: 600px ;
+	height: 30px;
+	background: none;
+	color: #FFFFFF;
+	border: none;
+	text-align: left;
+	position: relative;
+	top: 30px;
+	left: 70px;
+	font-family: "Open Sans", serif;
+	font-weight: 200;
+	font-style: bold;
+	font-size: 12px;
+}
+
+.razon {
+	width: 70px ;
+	height: 50px;
+	background: none;
+	color: #FFFFFF;
+	border: none;
+	text-align: center;
+	position: relative;
+	top: -20px;
+	left: 1000px;
+	font-family: "Open Sans", serif;
+	font-weight: 200;
+	font-style: bold;
+	font-size: 12px;
+}
+
+.razon:hover {
+	width: 70px ;
+	height: 50px;
+	background: #406270;
+	color: #FFFFFF;
+	border: none;
+	text-align: center;
+	position: relative;
+	top: -20px;
+	left: 1000px;
+	font-family: "Open Sans", serif;
+	font-weight: 200;
+	font-style: bold;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.fundador {
+	width: 70px ;
+	height: 40px;
+	background: none;
+	color: #FFFFFF;
+	border: none;
+	text-align: center;
+	position: relative;
+	top: -20px;
+	left: 1010px;
+	font-family: "Open Sans", serif;
+	font-weight: 200;
+	font-style: bold;
+	font-size: 12px;
+}
+
+.fundador:hover {
+	width: 70px ;
+	height: 40px;
+	background: #406270;
+	color: #FFFFFF;
+	border: none;
+	text-align: center;
+	position: relative;
+	top: -20px;
+	left: 1010px;
+	font-family: "Open Sans", serif;
+	font-weight: 200;
+	font-style: bold;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.mapa {
+	width: 100%;
+	height: 400px;
+	position: relative;
+	background: #366070;
+	margin: 0;
+	padding-top: -60px;
+	
+	
+}
